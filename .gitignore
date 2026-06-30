@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.log
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode
+.idea/
+*.iml
+
+# Project specific
+uploads/
+app.db
+test*.pdf
+*.pdf
+.env
+.env.local
+.env.*.local
+logs/
+*.pyc
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Distribution
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment
+.venv/
+venv/
+ENV/
+env/
+.env
